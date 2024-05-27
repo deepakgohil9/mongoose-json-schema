@@ -141,7 +141,7 @@
 		import { jsonrepair } from 'https://cdn.jsdelivr.net/npm/jsonrepair/+esm'
 
 		const converter = async (mongooseSchema) => {
-			const response = await fetch('http://localhost:7654/api/convert', {
+			const response = await fetch('https://mongoose-json-schema.onrender.com/api/convert', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',

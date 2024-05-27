@@ -30,5 +30,5 @@ app.post('/api/convert', (req, res) => {
 })
 
 app.listen(PORT, () => {
-	console.log(`Server is running on port http://localhost:${PORT}/public`)
+	console.log(`Server is running on port http://localhost:${PORT}/`)
 })
